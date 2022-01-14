@@ -42,6 +42,9 @@ h1{
     font-size: 16px;
     font-weight: bolder;
 }
+.camera-image img:hover{
+    transform: scale(1.2);
+}
 button{
     background-color:#E02C6D;
     color: white;
@@ -94,5 +97,30 @@ button{
     margin-top: 90px;
     text-align: right;
     color: #E02C6D;
+}
+.extra-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    align-items: center;
+    background-color: rgba(162, 176, 190, 0.877);
+    border-radius: 15px;
+    padding-left: 15px;
+
+}
+.service-image{
+    margin-top: 40px;
+}
+.footer-part{
+    background-color: rgb(1, 1, 44);
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+i{
+   padding-right: 20px;
 }
 
